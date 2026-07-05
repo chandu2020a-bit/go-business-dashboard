@@ -1,16 +1,21 @@
-# React + Vite
+# Go Business - Referral Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React Single Page Application (SPA) built for tracking referrals, service summaries, and active analytics data. This project fetches live metrics securely from the remote cloud API endpoints.
 
-Currently, two official plugins are available:
+## Features
+- **Secure Authentication:** Cookie-based JWT authentication gateway using `js-cookie`.
+- **Live Metrics Dashboard:** Grid tracking overview analytics and interactive service summary structures.
+- **Advanced Referral Tracking:** Dynamic client-side list searching, sorting filters, and robust pagination handlers.
+- **Deep Routing:** Deep link path structures mapping item-specific referral parameters via `react-router-dom`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- **Framework:** React (Vite template layout)
+- **Routing:** React Router DOM v6
+- **State & Storage:** JS-Cookie
 
-## React Compiler
+## Local Installation & Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository or extract the project directory.
+2. Install dependencies:
+   ```bash
+   npm install
